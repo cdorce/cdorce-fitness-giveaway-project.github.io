@@ -6,13 +6,16 @@ html, body {
     color: rgb(255, 255, 255);
 }
 
+:root {
+    --main-red:rgb(209, 31, 31);
+}
 
 
 /* HERO SECTION*/
 
 
 .hero-container {
-    
+    padding: 10px 20px;
 }
 
 
@@ -20,17 +23,90 @@ hr {
     margin-top: 30px;
     margin-bottom: 40px;
 }
-
-
 .logo {
-    text-align: center;
+    margin-top: 80px;
+    font-weight: 800;
 }
 
+h1 {
+    line-height: 45px;
+}
+
+.logo-text {
+    text-align: center;
+    margin-bottom: 90px;
+
+}
+
+.red-text {
+    color: var(--main-red);
+}
+
+.text-hero{
+    font-weight: 200;
+    line-height: 35px;
+    font-size: 25px;
+    color: rgb(244, 244, 245);
+    font-family:  'Montserrat', sans-serif;
+}
+.light-text {
+    font-weight: 200;
+}
 
 .logo-img {
-    width: 50px;
+    
+    width: 30px;
     border-radius: 50%;
     border: 2px solid white;
-    padding: 20px 20px;
+    padding: 10px 10px;
+    margin-bottom: 0;
 }
+
+
+.hero-btn {
+    background-color: var(--main-red);
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    padding: 30px 40px;
+    margin-bottom: 35px;
+
+}
+
+
+/* COUNTDOWN SECTION*/
+
+.countdown-container {
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(209, 31, 31);
+    padding: 30px 50px;
+ 
+    
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family:  'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.cta-1 {
+    margin-top: 35px;
+    background-color: white;
+    border: none;
+    padding: 30px 45px;
+    font-weight: 900;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+#d-h-m-s {
+    font-size: 7px;
+}
+
+
+/* IMAGE/TEXT SECTION*/
+
 
