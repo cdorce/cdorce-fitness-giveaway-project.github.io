@@ -109,4 +109,98 @@ h1 {
 
 /* IMAGE/TEXT SECTION*/
 
+.img-text {
+    position: relative;
+    text-align: center;
+  
+}
 
+
+.text-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+
+    font-weight: 200;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family:  'Montserrat', sans-serif;
+    background-color: rgba(27, 27, 27, 0.582);
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.med-line3 {
+    margin-bottom: 0px;
+}
+
+/* GEAR SECTION*/
+
+.gear-container {
+    background-color: rgb(22, 21, 21);
+    padding: 20px;
+}
+
+.gear-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family:  'Montserrat', sans-serif;
+    line-height: 40px;
+
+}
+
+.gear-text h4 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family:  'Montserrat', sans-serif;
+    line-height: 40px;
+}
+
+
+/* GEAR-CARDS SECTION*/
+
+.gear-card {
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    padding-top: 45px;
+    margin-bottom: 25px;
+}
+
+.gear-name {
+    padding-bottom: 20px;
+}
+
+
+/* FOOTER SECTION*/
+
+footer {
+    text-align: center;
+    padding: 30px 50px;
+    background-color: var(--main-red);
+}
+
+.footer-count h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.cta-3 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 25px 30px;
+    margin: 40px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+..footer-count 
