@@ -1,19 +1,42 @@
 body, html {
     margin: 0;
     padding: 0;
-}
-
-body {
+    color: aliceblue;
     background-color: rgb(58, 56, 56);
 }
 
+
+
 .form-container {
     width: 500px;
-
     height: 800px;
     border: 1.5px solid white;
     border-radius: 20px;
-    margin: 20% 10%;
-    padding: 50px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    margin-bottom: 20vh;
+    display: block;
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 2em;
 
+}
+
+.btn{
+    margin-top: 10em;
+    border: 2px solid white;
+    background-color: rgb(58, 56, 56) ;
+    padding: 1em 1.5em;
+    color: white;
+    
+}
+
+input {
+    margin-bottom: 5em;
+    padding: .5em;
+}
+
+.textarea {
+    padding: 3em 2em;
 }
