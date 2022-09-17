@@ -130,6 +130,7 @@ h1 {
 .img-text {
     position: relative;
     text-align: center;
+    
   
 }
 
@@ -161,6 +162,10 @@ h1 {
 .gear-container {
     background-color: rgb(22, 21, 21);
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .gear-text {
@@ -191,6 +196,7 @@ h1 {
     padding: 20px;
     padding-top: 45px;
     margin-bottom: 25px;
+    width: 20em;
 }
 
 .gear-name {
