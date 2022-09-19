@@ -105,6 +105,7 @@ h1 {
     font-weight: 900;
     font-size: x-large;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
@@ -197,6 +198,7 @@ h1 {
     padding-top: 45px;
     margin-bottom: 25px;
     width: 20em;
+    margin: .5em;
 }
 
 .gear-name {
@@ -225,5 +227,6 @@ footer {
     margin: 40px 10px;
     font-size: 25px;
     font-weight: bold;
+    cursor: pointer;
 }
 
