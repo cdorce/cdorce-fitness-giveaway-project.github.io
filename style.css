@@ -15,7 +15,8 @@ html, body {
 
 
 .hero-container {
-    padding: 10px 20px;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 
@@ -30,6 +31,7 @@ hr {
 
 h1 {
     line-height: 45px;
+    font-size:30px ;
 }
 
 .logo-text {
@@ -230,3 +232,38 @@ footer {
     cursor: pointer;
 }
 
+@media(min-width:1000px) {
+    .text-hero{
+        line-height: 55px;
+        font-size: 40px;
+        padding: 15px 80px;
+       
+    }
+
+    .hero-btn {
+
+        padding: 30px 60px;
+        margin-bottom: 40px;
+
+    }
+
+    h1 {
+        line-height: 55px;
+        font-size: 40px;
+    }
+
+
+    .gear-text {
+        padding: 20px 120px;
+        font-size: 30px;
+    
+        line-height: 40px;
+    
+    }
+    
+    .gear-text h4 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    
+}
