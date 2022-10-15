@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     color: aliceblue;
     background-color: rgb(58, 56, 56);
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -27,7 +28,7 @@ body, html {
     margin-top: 10em;
     border: 2px solid white;
     background-color: rgb(58, 56, 56) ;
-    padding: 1em 1.5em;
+    padding: 2em 4.5em;
     color: white;
     
 }
